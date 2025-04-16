@@ -14,6 +14,8 @@ elif operador == "/":
         resultado = num1 / num2
     else:
         resultado = "Erro! Divisão por zero."
+elif operador == "^":
+    resultado = num1 ** num2        
 else:
     resultado = "Operador inválido."
 
